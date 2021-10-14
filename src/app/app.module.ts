@@ -8,7 +8,8 @@ import { MyCounterComponent } from './my-counter/my-counter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyCounterComponent
   ],
   imports: [
     BrowserModule,
