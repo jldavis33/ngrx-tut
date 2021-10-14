@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Observable } from "rxjs";
 
 @Component({
   selector: 'app-my-counter',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-counter.component.css']
 })
 export class MyCounterComponent {
+  count$: Observable<number>
 
   constructor() {
     // TODO: Connect `this.count$` stream to the current store `count` state
